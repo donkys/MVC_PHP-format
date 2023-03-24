@@ -20,5 +20,7 @@ function connect()
 
 }
 
+$connection = connect();
+
 ?>
 

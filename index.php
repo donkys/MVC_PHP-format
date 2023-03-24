@@ -2,24 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <!-- head -->
+    <?php
+    require("Models/Configs.php");
+    require("Views/head.php");
+    ?>
+
+    <!-- Title -->
+    <title>ข้อที่ 1</title>
 </head>
 
 <body>
+    <!-- navbar -->
+    <header>
+        <?php
+        require("Views/navbar.php");
+        ?>
+    </header>
+
+    <!-- Content -->
+    <main>
+        <?php
+        // print(rand(10, 100));
+
+
+        ?>
+    </main>
+
+    <!-- footer -->
     <?php
-    session_start();
-    require("Models/Configs.php");
-
-    print("Hello");
-
-
-
-
-
+    require("Views/footer.php");
     ?>
+
 </body>
 
 </html>

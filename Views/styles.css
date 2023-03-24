@@ -1,0 +1,44 @@
+body {
+  background-color: #F3F4F6;
+  font-family: 'IBM Plex Sans Thai';
+}
+
+.footer {
+  font-family: 'IBM Plex Sans Thai';
+  font-weight: 500;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 70px;
+  background-color: white;
+  color: #9E9E9E;
+  text-align: center;
+  filter: drop-shadow(-2mm -1mm 5mm rgb(211, 211, 211));
+}
+
+.iconfoot {
+  text-align: left;
+}
+
+.footlink {
+  color: #787878;
+  font-weight: 700;
+}
+
+.footlink:hover {
+  color: #000000;
+  font-weight: 900;
+}
+
+/* Header */
+
+.nav-text{
+  color: #787878;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.head-nav {
+  padding: 20px 70px;
+}
