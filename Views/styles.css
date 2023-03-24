@@ -1,12 +1,23 @@
+/* Inner */
+
 body {
   background-color: #F3F4F6;
   font-family: 'IBM Plex Sans Thai';
+  font-size: 18px;
 }
+
+main {
+  padding: 120px 70px 100px;
+
+}
+
+
+/* Header */
 
 .footer {
   font-family: 'IBM Plex Sans Thai';
   font-weight: 500;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -31,9 +42,11 @@ body {
   font-weight: 900;
 }
 
+
+
 /* Header */
 
-.nav-text{
+.nav-text {
   color: #787878;
   font-weight: 600;
   font-size: 22px;
