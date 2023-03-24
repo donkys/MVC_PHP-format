@@ -6,6 +6,10 @@
     <?php
     require("Models/Configs.php");
     require("Views/head.php");
+
+    // ADD REQUIRED GET OR POST METHOD
+    
+
     ?>
 
     <!-- Title -->
